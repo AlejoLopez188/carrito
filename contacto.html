@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Fish</title>
+    <link rel="shortcut icon" href="img/REDFISH3.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <img src="img/REDFISH3.jpg" alt="" id="logo" style="height: 200px; width: 200px;">
+        <nav>
+            <ul id="ulmenu">
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin-top: 20px;">Contacto</h2>
+    <main style="text-align: center; display: flex; justify-content: center;">
+        
+        <form action="https://formspree.io/f/myzyweby" method="POST">
+            <label for="">Nombre y Apellido:</label>
+            <input type="text" id="nombre" required>
+            <label for="">E-mail:</label>
+            <input type="email" id="email" name="email">
+            <label for="">Teléfono:</label>
+            <input type="number" id="telefono" name="telephone">
+            <label for="">Asunto:</label>
+            <input type="text" id="asunto" name="subject">
+            <label for="">Mensaje:</label>
+            <textarea name="message" id="mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    
+    <footer>
+    </footer>
+    <script src="funciones.js"></script>
+</body>
+</html>
